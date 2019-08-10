@@ -1,0 +1,14 @@
+{
+  "version": "0.1.26",
+  "steps": [
+    {
+      "stepType": "DeleteModel",
+      "name": "Post"
+    },
+    {
+      "stepType": "DeleteField",
+      "model": "User",
+      "name": "posts"
+    }
+  ]
+}
